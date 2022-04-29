@@ -9,13 +9,14 @@
 
 - Current version of [Node.js](https://nodejs.org/) <=v16.14.2
 - Install dependencies: `yarn install`
-- [near-cli] is a command line interface (CLI) for interacting with the NEAR blockchain. ```npm install -g near-cli``` 
+- [near-cli] is a command line interface (CLI) for interacting with the NEAR blockchain. 
+```npm install -g near-cli``` 
 
 ### Getting started
 
 1. clone this repo to a local folder
-2. run `yarn build:release` 
-3. run `yarn deploy` to quickly verify build status
+2. run `yarn build:release` to build the app
+3. run `yarn deploy` to deploy the app to the NEAR testnet
 4. run `export CONTRACT=YOUR_DEV_ACCOUNT_HERE` 
 
 ### Functions

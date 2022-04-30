@@ -59,7 +59,7 @@ near call $CONTRACT update '{"id":1441379057,"origin":"İstanbul","destination":
 Usage:<br>
 
 ```
-near view $CONTRACT getAll '{"offset":0}' --accountId --accountId $OWNER
+near view $CONTRACT getAll '{"offset":0}' --accountId $OWNER
 ```
 
 ### **getFlightById**<br>
@@ -70,6 +70,16 @@ Usage:<br>
 
 ```
 near view $CONTRACT getById '{"id":1441379057}' --accountId $OWNER
+```
+
+### **getFlightCount**<br>
+
+* This function returns flight count on the NEAR blockchain.
+
+Usage:<br>
+
+```
+near view $CONTRACT getFlightCount '{}' --accountId $OWNER
 ```
 
 ### **deleteById**<br>
